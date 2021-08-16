@@ -1,4 +1,4 @@
-const numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numbers = [ 3, 4, 5, 6, 7, 8, 9, 10];
 // const output = [];
 // for (let i = 0; i < numbers.length; i++) {
 //     const element = numbers[i];
@@ -32,6 +32,7 @@ const numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 
 const result = numbers.filter(x => x > 5)
+const check = numbers.find(x => x > 5) // just next bigger number
 
-console.log(result);
+console.log(check);
 
